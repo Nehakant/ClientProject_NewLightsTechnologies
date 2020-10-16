@@ -6,7 +6,7 @@ The goal of this project is twofold 1) To collect tweet message data relating to
 
 #### Twitter API Scraping & Data Collection
 
-Twitter's REST API was used in conjunction with Tweepy and a Twitter Developer Account to pull Tweets into Pandas DataFrames. Our Twitter Developer account was used to generate a consumer key, consumer secret, access token and access secret. These Twitter credentials were saved as a .json file and an instance of Tweepy's API class was authenticated using these credentials. A class called StreamListener was borrowed from a past project by Edithlyer. At this point, Tweet data was pulled in real time and converted into a Pandas DataFrame to be fed into the EDA and cleaning phase.
+Twitter's REST API was used in the conjunction with Tweepy and a Twitter Developer Account to pull Tweets into Pandas DataFrames. Our Twitter Developer account was used to generate a consumer key, consumer secret, access token and access secret. These Twitter credentials were saved as a .json file and an instance of Tweepy's API class was authenticated using these credentials. A class called StreamListener was borrowed from a past project by Edithlyer. At this point, Tweet data was pulled in real time and converted into a Pandas DataFrame to be fed into the EDA and cleaning phase.
 
 Additional tweet data was gathered from CrisisLex.org (https://crisislex.org/), a website that is used to house datasets and lexicons that are useful to those interested broadcasting information and modeling disaster response.
 
